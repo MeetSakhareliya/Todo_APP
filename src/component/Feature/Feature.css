@@ -23,9 +23,9 @@
 @media (max-width:500px){
     .feature_container{
         flex-direction: column;
-        min-width: 20rem;
+        min-width:90vw;
     }
-}
 
+}
 
 

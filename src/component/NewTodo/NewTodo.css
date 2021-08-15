@@ -2,6 +2,7 @@
     margin:5vh auto;
     display:block;
     width:40%;
+    min-width: 20rem;
     text-align: center;
     background-color:rgb(245, 238, 146);
     border-radius:12px;
@@ -21,4 +22,10 @@
 .new-todo_btn:hover{
     background-color:#fdde78;
     border:2px solid #fac929;
+}
+
+@media (max-width:500px){
+    .new-todo_container{
+        min-width:80vw;
+    }
 }
